@@ -1,0 +1,5 @@
+rootProject.name = 'online-store'
+include 'applications/account-address-microservice'
+include 'applications/order-orderline-microservice'
+include 'applications/product-image-microservice'
+include 'applications/shipment-microservice'
