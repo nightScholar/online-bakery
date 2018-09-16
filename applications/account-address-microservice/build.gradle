@@ -39,6 +39,8 @@ dependencies {
 	compile('org.springframework.cloud:spring-cloud-starter-openfeign')
 	runtime('mysql:mysql-connector-java')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.4.0-b180830.0359'
+
 }
 
 dependencyManagement {

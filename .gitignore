@@ -23,3 +23,6 @@ gradle/
 .gradle/
 build.gradle
 
+# Properties file #
+
+.dbconfig.properties
