@@ -7,21 +7,22 @@ eureka:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
 
+
+
 management:
   endpoint:
     health:
-      show-details: "ALWAYS"
+      show-details: always
   endpoints:
     web:
       exposure:
         include: "*"
 
 ---
-
 spring:
   profiles: eureka-host1
 server:
-  port: 8764
+  port: 8763
 eureka:
   instance:
     hostname: eureka-host1
@@ -30,4 +31,4 @@ eureka:
       defaultZone:
 management:
   server:
-    port: 8094
+    port: 8093
